@@ -1,0 +1,1 @@
+{u'log_id': 3399165544049481452L, u'words_result_num': 1, u'words_result': [{u'words': u'\u822a\u6bcd'}]}
