@@ -1,4 +1,4 @@
-#文件夹
+##文件夹
 >1getImage: 获取12306网站的验证码
 >>
 >2getCheckCodeType:

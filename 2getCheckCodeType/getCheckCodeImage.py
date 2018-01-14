@@ -18,6 +18,10 @@ for i in range(0,2000):
             if os.path.exists(changeDir+'\\'+str(i)) == False:
                 os.mkdir(str(i))
             os.chdir(currentDir)
+
+            region0=im.crop()
+            region0.save('../images/typeImages/' + str(i)+'/0' + '.jpg')
+
             region1 = im.crop((x,y,x+w,y+h))
             region1.save('../images/typeImages/' + str(i)+'/1' + '.jpg')
 

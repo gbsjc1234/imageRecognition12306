@@ -7,13 +7,21 @@ sys.setdefaultencoding('utf8')
 # API_KEY = 'YhZjuH7ImkYn2rkpvbngHUK9'
 # SECRET_KEY = '49GRXlOQUkFriYdESqfkfjqcNe2vINGd'
 
-APP_ID = '10686902'
-API_KEY = 'f0OoGIltwse62zOu7ZBzbchw'
-SECRET_KEY = 'oxrXXhBylkpd3pZ07nsr5OhBGaeMxQEi'
+APP_ID = '10689311'
+API_KEY = 'gfbVqOSh0OfrBgLbIDIDN3LG'
+SECRET_KEY = '8x1QS8zRdUZg8CMi3qAiXtC87GdlrTyh'
+
+# APP_ID = '10689317'
+# API_KEY = 'SuI3zXXgCIQkFaRe7nTIBz39'
+# SECRET_KEY = 'Nxn6WkpQ3Aef2iGeKy4bY8Gy55bG7GTe'
+
+# APP_ID = '10686902'
+# API_KEY = 'f0OoGIltwse62zOu7ZBzbchw'
+# SECRET_KEY = 'oxrXXhBylkpd3pZ07nsr5OhBGaeMxQEi'
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
-result_path = '../images/typeStr/00.txt'
+result_path = '../images/typeStr/0014.txt'
 result_file = open(result_path, 'wb')
-for i in range(201,400):
+for i in range(1400,1900):
     filePath = '../images/typeStr/'+str(i)+'.jpg'
     if os.path.exists(filePath):
         file=open(filePath,'rb')
